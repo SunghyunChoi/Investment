@@ -1,0 +1,61 @@
+[INFO  - 2020-06-15T13:50:55.306Z] GhostDriver - Main - running on port 52612
+[INFO  - 2020-06-15T13:50:57.495Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-06-15T13:50:57.495Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.customHeaders:  - {}
+[INFO  - 2020-06-15T13:50:57.495Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-06-15T13:50:57.495Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3d3ba230-af0f-11ea-8694-53f201409d8b
+[ERROR - 2020-06-15T13:51:06.176Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - msg: TypeError: Attempting to configurable attribute of unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-15T13:51:06.177Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - stack:
+  defineProperty (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  oe (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  exports (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  exports (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-15T13:51:06.180Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - msg: ReferenceError: Can't find variable: Guuru
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-15T13:51:06.180Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - stack:
+  global code (https://www.freitag.ch/en/f41:736)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-06-15T13:55:55.307Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2020-06-15T13:59:36.285Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - msg: TypeError: Attempting to configurable attribute of unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-15T13:59:36.286Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - stack:
+  defineProperty (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  oe (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  exports (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  exports (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  a (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+  (anonymous function) (https://static.guuru.com/loader/v1.0/chat.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-15T13:59:36.286Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - msg: ReferenceError: Can't find variable: Guuru
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-15T13:59:36.287Z] Session [3d3ba230-af0f-11ea-8694-53f201409d8b] - page.onError - stack:
+  global code (https://www.freitag.ch/en/f41:736)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-06-15T14:00:55.311Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
